@@ -1,4 +1,4 @@
-public with sharing class SalespersonRegionsSSController {
+public with sharing class LeadVisualiserSSController {
 	@AuraEnabled
     public static List<Lead> getLeads() {
         return [
