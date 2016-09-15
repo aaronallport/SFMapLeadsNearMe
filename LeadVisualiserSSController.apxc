@@ -1,0 +1,10 @@
+public with sharing class SalespersonRegionsSSController {
+	@AuraEnabled
+    public static List<Lead> getLeads() {
+        return [
+            SELECT Id, Name, Latitude, Longitude
+            FROM Lead
+            WHERE OwnerId = :UserInfo.getUserId() AND Latitude != NULL AND Longitude != NULL
+        ];
+    }
+}

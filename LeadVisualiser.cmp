@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable" controller="LeadVisualiserSSController">
+    <aura:attribute name="leads" type="Lead[]" />
+    <aura:attribute name="userInfo" type="User" />
+
+    <ltng:require styles="/resource/leaflet/leaflet.css" />
+    <ltng:require scripts="/resource/leaflet/leaflet.js" afterScriptsLoaded="{!c.mapLoaded}" />
+
+    <div class="map" id="map"></div>
+</aura:component>
