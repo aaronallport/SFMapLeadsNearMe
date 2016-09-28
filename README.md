@@ -10,6 +10,7 @@ To accompany [this talk](https://success.salesforce.com/Sessions?eventId=a1Q3000
 * [Data.com Success Community](https://success.salesforce.com/featuredGroupDetail?id=a1z30000006IDYDAA4#a0L3000000Rq7JWEAZ)
 * [Plot Your Salesforce Leads on a Map](http://aaronallport.com/2016/08/04/plot-your-salesforce-leads-on-a-map.html)
 * [New and Improved Salesforce Leads on a Map](http://aaronallport.com/2016/09/14/new-and-improved-salesforce-leads-on-a-map.html)
+* [Creating a Salesforce Lightning Map Component](https://developer.salesforce.com/blogs/developer-relations/2015/04/creating-salesforce-lightning-map-component.html)
 
 In this repository you'll find the code for the Lightning component and server-side Apex controller mentioned in the presentation.
 
